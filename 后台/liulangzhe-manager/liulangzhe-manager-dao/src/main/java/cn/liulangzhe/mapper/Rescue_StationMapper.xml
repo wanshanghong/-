@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 写Sql语句   -->
+<mapper namespace="cn.liulangzhe.mapper.Rescue_StationMapper">
+	
+	<!-- 通过ID查询救助站的地理位置 -->
+	<select id="FindRescueById" parameterType="Integer" resultType="cn.liulangzhe.pojo.Rescue_Station">
+		select *from rescue_station where post=#{station_id}
+	</select>
+	
+	<!-- 查找所有的救助站 -->
+	<select id="FindAllRescue" resultMap="cn.liulangzhe.pojo.Rescue_Station">
+		select *from rescue_station
+	</select>
+	
+	<!-- 添加救助站 -->
+	<insert id="AddStation" parameterType="cn.liulangzhe.pojo.Rescue_Station">
+		<selectKey keyProperty="station_id" resultType="Integer" order="AFTER" >
+			resultType="Integer" order="AFTER"
+		</selectKey>
+		insert into rescue_station(station_name,longitude,latitude)values (#{station.station_name},#{station.longitude},#{station.latitude})
+	</insert>
+</mapper>
