@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(242,242,242);
+}
+.w{
+    margin: 0 auto;
+    width: 1000px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+button{
+    outline: none;
+}
+.cl{
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+header{
+    height: 20px;
+    padding: 10px 0 10px 0;
+    background-color: #f2473d;
+}
+.logo{
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: rgba(0,0,0,.2);
+    margin-top: 20px;
+}
+.zhuce,.land{
+    float: right;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.zhuce{
+    margin-right: 20px;
+    border-left: 1px solid #fff;
+    padding-left: 50px;
+}
+.land{
+    margin-right: 150px;
+}
+.nav{
+    float: right;
+    height: 20px;
+}
+.nav ul li{
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    float: left;
+    position: relative;
+    margin: 0 15px 0 15px;
+    line-height: 20px;
+}
+.bd2{
+    border-bottom: 3px solid #fff;
+    padding-bottom: 7px;
+}
+.nav ul .fenlei{
+    padding-right: 18px;
+}
+.nav .lastli{
+    margin-right: 50px;
+}
+.nav ul li:hover{
+    border-bottom: 3px solid #fff;
+    padding-bottom: 7px;
+}
+.nav a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+i,b{
+    position: absolute;
+}
+b{
+    width: 18px;
+    height: 40px;
+    top: -10px;
+    right: 0;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+}
+i{
+    width: 18px;
+    height: 20px;
+    font-style: normal;
+    top: 7px;
+    right: 0px;
+    overflow: hidden;
+    font-weight: 400;
+}
+.mask{
+    width: 100%;
+    height: 150px;
+    background-color: #ffcccc;
+    position: absolute;
+    top: 40px;
+    display: none;
+    z-index: 10;
+}
+.mask dl{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 13px;
+    float: left;
+    position: relative;
+    padding-left: 10px;
+}
+.mask dl a{
+    color: #000;
+}
+.mask dl a:hover{
+    color: #f3574d;
+}
+.bd{
+    width: 1px;
+    height: 100px;
+    background-color: #f2473d;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -50px;
+}

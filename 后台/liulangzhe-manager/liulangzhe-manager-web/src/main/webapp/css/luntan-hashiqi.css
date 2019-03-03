@@ -1,0 +1,446 @@
+body{
+    height: 8888px;
+}
+.sousuo{
+    position: relative;
+    display: inline-block;
+    margin-left: 180px;
+}
+.sousuo input{
+    width: 400px;
+    height: 30px;
+}
+.sousuo button{
+    width: 60px;
+    height: 34px;
+    border: 0;
+    position: relative;
+    text-align: center;
+    line-height: 34px;
+    background-color: #f2473d;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+.sousuo button:hover{
+    background-color: #e3473d;
+}
+.logo{
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: rgba(0,0,0,.2);
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/*哈士奇论坛头*/
+.luntanhead{
+    height: 60px;
+    margin-top: 10px;
+    background-color: #fff;
+    position: relative;
+    -webkit-box-shadow: 2px 0 2px #ccc;
+    -moz-box-shadow: 2px 0 2px #ccc;
+    box-shadow: 2px 0 2px #ccc;
+}
+.luntanhead ul li{
+    width: 100px;
+    height: 57px;
+    line-height: 60px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+.luntanhead ul li:first-child{
+    border-bottom: 3px solid #f2473d;
+}
+.luntanhead button{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #f2473d;
+    border: none;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    cursor: pointer;
+}
+.luntanhead .fatiebtn{
+    right: 110px;
+    top: 15px;
+}
+.luntanhead .tiwenbtn{
+    right: 15px;
+    top: 15px;
+}
+.luntanhead button:hover{
+    background-color: #e3473d;
+}
+.luntanbody{
+    width: 670px;
+    background-color: #fff;
+    margin-top: 10px;
+    -webkit-box-shadow: 2px 0 2px #ccc;
+    -moz-box-shadow: 2px 0 2px #ccc;
+    box-shadow: 2px 0 2px #ccc;
+}
+
+/*帖子开始*/
+.tiezibox{
+    width: 670px;
+}
+.tiezi{
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    margin: 0 15px 0 15px;
+    padding: 10px 0 30px 0;
+}
+.tiezibox:hover{
+    background-color: rgb(246,246,246);
+}
+.tiezi .touxiang{
+    float: left;
+}
+.tiezi .touxiang img{
+    width: 50px;
+    height: 50px;
+}
+.tiezi span{
+    font-size: 14px;
+    color: #000;
+    margin-left: 10px;
+}
+.tiezi a h1{
+    font-size: 14px;
+    color: #f2473d;
+    font-weight: 400;
+    display: inline;
+    margin-left: 10px;
+}
+.tiezi a h1:hover{
+    text-decoration: underline;
+}
+.tiezi time{
+    font-size: 12px;
+    color: #999;
+    margin-left: 10px;
+}
+.tiezi p{
+    width: 400px;
+    margin: 10px 0 0 60px;
+    font-size: 14px;
+    line-height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tiezi .tupian{
+    width: 400px;
+    height: 120px;
+    overflow: hidden;
+    margin-left: 60px;
+}
+.tiezi .tupian img{
+    width: auto;
+    height: 120px;
+    float: left;
+    margin: 10px 5px 0 0;
+    cursor: pointer;
+}
+.tiezi footer{
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+    font-size: 12px;
+    color: #999;
+}
+.tiezi footer span{
+    font-size: 12px;
+    color: #999;
+}
+.tiezi footer a{
+    color: #999;
+    margin-left: 30px;
+}
+.tiezi footer a:hover{
+    text-decoration: underline;
+}
+.tiezi .unlook{
+    position: absolute;
+    width: 50px;
+    bottom: 15px;
+    right: 25px;
+    font-size: 12px;
+    color: #999;
+} 
+/*查看全文后*/
+.zan{
+    width: 670px;
+    font-size: 12px;
+    color: #999;
+    margin-left: 50px;
+    position: relative;
+    top: 24px;
+    display: none;
+}
+.zan ul{
+    width: 670px;
+    height: 30px;
+}
+.zan ul li{
+    float: left;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+.zan ul li:nth-child(1){
+    background: url(../images/shoucang.png) no-repeat center left;
+    -webkit-background-size: 12px 12px;
+    background-size: 12px 12px;
+}
+.zan ul li:nth-child(2){
+    background: url(../images/fenxiang.png) no-repeat center left;
+    -webkit-background-size: 12px 12px;
+    background-size: 12px 12px;
+}
+.zan ul li:nth-child(3){
+    background: url(../images/zan.png) no-repeat center left;
+    -webkit-background-size: 12px 12px;
+    background-size: 12px 12px;
+}
+.zan ul li:nth-child(4){
+    background: url(../images/pinglun.png) no-repeat center left;
+    -webkit-background-size: 12px 12px;
+    background-size: 12px 12px;
+}
+.zan ul li:hover{
+    text-decoration: underline;
+}
+.tiezi .zan span{
+    font-size: 12px;
+    color: #999;
+}
+/*右部分*/
+.luntan-r{
+    width: 310px;
+    float: right;
+    -webkit-box-shadow: 2px 0 2px #ccc;
+    -moz-box-shadow: 2px 0 2px #ccc;
+    box-shadow: 2px 0 2px #ccc;
+    margin-top: 10px;
+}
+.biaozhi{
+    width: 310px;
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.biaozhi a img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.biaozhi h2{
+    font-weight: 600;
+    font-size: 16px;
+}
+.biaozhi section{
+    font-size: 14px;
+    color: #999;
+    margin-top: 10px;
+}
+.biaozhi section span{
+    color: #f2473d;
+}
+.biaozhi button{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    background-color: #f2473d;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.biaozhi button:hover{
+    background-color: #e3473d;
+}
+
+/*广告*/
+.guanggao{
+    width: 310px;
+    height: 400px;
+    background-color: #fff;
+}
+
+
+/*翻页*/
+.fanye{
+    width: 680px;
+    height: 40px;
+}
+.fanyekuang{
+    position: relative;
+}
+.fanye ul{
+    height: 40px;
+    position: relative;
+    left: 50%;
+    margin-left: -75px;
+}
+.fanye ul li{
+    width: 10px;
+    float: left;
+    padding: 12px 10px 10px 10px;
+    text-align: center;
+}
+.fanye ul li a{
+    color: #999999;
+    text-decoration: none;
+    font-size: 13px;
+    width: 16px;
+    display: block;
+    line-height: 16px;
+}
+.fanye ul li a:hover{
+    background-color: #ccc;
+}
+.fanyekuang span{
+    position: absolute;
+    top: 11px;
+    font-size: 13px;
+}
+.fanyekuang .shangyiye{
+    right: 420px;
+}
+.fanyekuang .xiayiye{
+    right: 210px;
+}
+.fanyekuang .shouye{
+    left: 175px;
+}
+.fanyekuang .weiye{
+    right: 175px;
+}
+.fanyekuang span a{
+    color: #999999;
+    text-decoration: none;
+}
+.fanyekuang span a:hover{
+    text-decoration: underline;
+}
+.liang{
+    background-color: #ccc;
+}
+
+/*发帖*/
+.write{
+    background-color: rgb(248,248,248);
+    padding-top: 10px;
+    position: relative;
+}
+.write h3{
+    font-weight: 600;
+    font-size: 16px;
+    margin: 10px 0 0 20px;
+}
+.write input[type="text"]{
+    width: 600px;
+    height: 30px;
+    margin: 15px 0 0 20px;
+    display: block;
+}
+
+.write textarea{
+    width: 600px;
+    height: 200px;
+    margin: 15px 0 0 20px;
+    padding: 4px;
+    line-height: 16px;
+    font-size: 13px;
+    display: block;
+}
+.write input[type="button"]{
+    border: 0;
+    width: 80px;
+    height: 30px;
+    background-color: #f2473d;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    margin: 15px 0 0 20px;
+    cursor: pointer;
+    outline: none;
+}
+.write a{
+    font-size: 12px;
+    color: #999;
+    padding-left: 20px;
+}
+.write a:hover{
+    text-decoration: underline;
+    color: #f2473d;
+}
+.write .img{
+    width: 860px;
+    margin:15px 0 0 20px;
+    overflow: hidden;
+}
+.write .imgbox{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    text-align: center;
+    margin-left: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.write .img img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.write .imgbox span{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.2);
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.write .imgbox span:hover{
+    background-color: rgba(0,0,0,.4);
+}
+
+/*预览图片*/
+.yulan{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.5);
+}
+.yulan img{
+    width: 500px;
+    height: auto;
+    position: fixed;
+    left:50%;top:50%;
+    transform:translateX(-50%) translateY(-50%);
+}

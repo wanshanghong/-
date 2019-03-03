@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.w{
+    width: 1000px;
+    margin: 0 auto;
+}
+.cl{
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+header{
+    height: 20px;
+    padding: 10px 0 10px 0;
+    background-color: #f2473d;
+}
+.logo{
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: rgba(0,0,0,.2);
+    margin-top: 20px;
+}
+.nav{
+    float: right;
+    height: 20px;
+}
+.nav ul li{
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    float: left;
+    position: relative;
+    margin: 0 15px 0 15px;
+    line-height: 20px;
+
+}
+.bd2{
+    border-bottom: 3px solid #fff;
+    padding-bottom: 5px;
+}
+.nav ul .fenlei{
+    padding-right: 18px;
+}
+.nav .lastli{
+    margin-right: 0;
+}
+.nav ul li:hover{
+    border-bottom: 3px solid #fff;
+    padding-bottom: 5px;
+}
+.nav a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+.box{
+    border: 1px solid #ccc;
+    width: 700px;
+    height: 500px;
+    padding: 20px 80px 0 80px;
+    position: relative;
+    margin: 20px 70px 0 70px;
+}
+.zhuce{
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    margin-left: 200px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.bd{
+    border-bottom: 3px solid #f2473d;
+}
+.land{
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: right;
+    margin-right: 200px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.smallbox{
+    margin: 40px 0 0 90px;
+    width: 700px;
+    height: 30px;
+}
+.smallbox span{
+    width: 60px;
+    font-size: 14px;
+    padding-right: 20px;
+    text-align: right;
+    display: inline-block;
+}
+.smallbox input{
+    width: 350px;
+    height: 30px;
+    color: #666;
+}
+.smallbox #password{
+    padding-left: 20px;
+    font-size: 14px;
+    color: #666;
+}
+.smallbox #name{
+    padding-left: 20px;
+    font-size: 14px;
+    color: #666;
+}
+.yanzhengma input{
+    width: 220px;
+    height: 30px;
+    margin-right: 20px;
+}
+.yanzhengma button{
+    width: 110px;
+    height: 34px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #666;
+}
+.yanzhengma button:hover{
+    background-color: #dadada;
+}
+.zhucebtn{
+    margin-top: 40px;
+    width: 350px;
+    height: 40px;
+    margin-left: 175px;
+    background-color: #f2473d;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.zhucebtn:hover{
+    background-color: #e3473d;
+}
+.forget{
+    position: absolute;
+    font-weight: 400;
+    font-size: 12px;
+    color: #666;
+    bottom: 280px;
+    right: 260px;
+    cursor: pointer;
+}
+.forget:hover{
+    text-decoration: underline;
+}
+.landbtn{
+    width: 350px;
+    height: 40px;
+    margin-left: 175px;
+    margin-top: 40px;
+    background-color: #f2473d;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+.landbtn:hover{
+    background-color: #e3473d;
+}
+/*倒三角*/
+i,b{
+    position: absolute;
+}
+b{
+    width: 18px;
+    height: 40px;
+    top: -20px;
+    right: 0;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+}
+i{
+    width: 18px;
+    height: 20px;
+    font-style: normal;
+    top: 18px;
+    right: 0;
+    overflow: hidden;
+}
+.err{
+    position: absolute;
+    font-weight: 400;
+    font-size: 12px;
+    color: red;
+    bottom: 410px;
+    right: 436px;
+}
+
+i,b{
+    position: absolute;
+}
+b{
+    width: 18px;
+    height: 40px;
+    top: -10px;
+    right: 0;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+}
+i{
+    width: 18px;
+    height: 20px;
+    font-style: normal;
+    top: 7px;
+    right: 0px;
+    overflow: hidden;
+    font-weight: 400;
+}
+.mask{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255,250,226);
+    position: absolute;
+    top: 40px;
+    display: none;
+    z-index: 10;
+}
+.mask dl{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 13px;
+    float: left;
+    position: relative;
+    padding-left: 10px;
+}
+.mask dl a{
+    color: #f2473d;
+}
+.mask dl a:hover{
+    color: #f3574d;
+}
+.bd1{
+    width: 1px;
+    height: 100px;
+    background-color: #f2473d;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -50px;
+}
+.err{
+    display: none;
+}
