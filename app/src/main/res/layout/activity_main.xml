@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
-    >
+    android:orientation="vertical">
 
+    <com.example.pl.test.MyTopBar
+        android:id="@+id/Mytb"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:RightText="右"
+        app:leftText="左"
+        app:title="过小虎"
+        app:titleColor="#000000"
+        app:titleSize="15sp">
+    </com.example.pl.test.MyTopBar>
 
+    <com.example.pl.test.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="guoxiaohu"
+        android:textSize="30sp" />
 
+    <com.example.pl.test.MyCiecleView
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
 </LinearLayout>
