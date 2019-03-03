@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 写Sql语句   -->
+<mapper namespace="cn.liulangzhe.mapper.VaccineMapper">
+	<!-- 添加疫苗 -->
+	<insert id="AddVaccine" parameterType="cn.liulangzhe.pojo.Vaccine">
+		<selectKey keyProperty="vaccine_id" resultType="Integer" order="AFTER">
+			select LAST_INSERT_ID()
+		</selectKey>
+		insert into vaccine(vaccine_id,vaccine_name,vaccine_date)values (#{vaccine.vaccine_id},#{vaccine.vaccine_name},#{vaccine.vaccine_date})
+	</insert>
+	
+	<!-- 查找所有的疫苗 -->
+	<select id="FindAllVaccine" resultMap="cn.liulangzhe.pojo.Vaccine">
+		select *from vaccine order by vaccine_date desc
+	</select>
+	
+	
+	<!-- 通过(vaccine_id)查找疫苗 -->
+	<select id="FindVaccineById" parameterType="Integer" resultType="cn.liulangzhe.pojo.Vaccine">
+		select *from vaccine where vaccine_id="#{vaccine_id}"
+	</select>
+</mapper>
